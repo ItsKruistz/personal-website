@@ -75,7 +75,7 @@
       Accept terms of use
       <div class="relative inline-block">
         <input type="checkbox" class="peer h-8 w-[52px] cursor-pointer appearance-none rounded-full bg-neutral-200 checked:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" />
-        <span class="pointer-events-none absolute start-1 top-1 block h-6 w-6 scale-105 rounded-full shadow bg-white transition-all duration-200 peer-checked:start-6"></span>
+        <span class="pointer-events-none absolute start-1 top-1 block h-6 w-6 rounded-full shadow bg-white transition-all duration-200 peer-checked:start-6"></span>
       </div>
     </label>
     <label class="flex cursor-pointer items-center justify-between p-1">
@@ -87,5 +87,9 @@
     </label>
     <button class="inline-block cursor-pointer rounded-md bg-gray-700 px-4 py-3.5 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 active:scale-95">Save</button>
   </div>
+</div>
+<div class="flex items-center">
+    <input type="checkbox" id="custom-checkbox" class="appearance-none h-5 w-5 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200 dark:focus:ring-blue-800">
+    <label for="custom-checkbox" class="ml-2 text-gray-700 dark:text-gray-300">Custom Checkbox</label>
 </div>
 </main>
