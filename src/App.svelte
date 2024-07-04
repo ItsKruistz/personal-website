@@ -15,7 +15,7 @@
     <div class="flex-none">
       <label class="swap swap-rotate btn-square btn-ghost">
         <!-- this hidden checkbox controls the state -->
-        <input type="checkbox" class="theme-controller" value="dark" />
+        <input type="checkbox" class="theme-controller appearance-none" value="dark" />
 
         <!-- sun icon -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon swap-off stroke-current w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -91,5 +91,8 @@
 <div class="flex items-center">
     <input type="checkbox" id="custom-checkbox" class="appearance-none h-5 w-5 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-200 dark:focus:ring-blue-800">
     <label for="custom-checkbox" class="ml-2 text-gray-700 dark:text-gray-300">Custom Checkbox</label>
+    <div class="flex h-6 items-center">
+                <input id="offers" name="offers" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600">
+              </div>
 </div>
 </main>
