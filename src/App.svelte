@@ -46,24 +46,10 @@
       <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
       <ul class="menu p-2 w-80 min-h-full bg-base-200 text-base-content">
         <!-- Sidebar content here -->
-        <li><a class="drawer-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon w-5 h-5 fill-stroke mr-1.5 ml-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-            <polyline points="9 22 9 12 15 12 15 22" />
-          </svg>Home</a></li>
-        <li><a class="drawer-item">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon w-5 h-5 fill-stroke mr-1.5 ml-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-            <rect height="18" rx="2" ry="2" width="18" x="3" y="3" />
-            <rect height="9" width="3" x="7" y="7" />
-            <rect height="5" width="3" x="14" y="7" />
-          </svg>Projects</a></li>
-        <li>
-          <a class="drawer-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon w-5 h-5 fill-stroke mr-1.5 ml-2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-              <circle cx="12" cy="13" r="4" />
-            </svg>
-            Gallery</a></li>
+        <li><a class="drawer-item">Home</a></li>
+        <li><a class="drawer-item">Projects</a></li>
+        <li><a class="drawer-item">Gallery</a></li>
+        <li><a class="drawer-item">Blogs</a></li>
       </ul>
     </div>
   </div>
@@ -73,8 +59,8 @@
         <h1 class="title-font text-4xl mb-4 font-bold">Hello, I'm Kruistz!</h1>
         <p class="mb-8 leading-normal text-lg">An hobbyist coder who likes to play gacha games. I also like to take photos too!</p>
       <div class="flex justify-center">
-        <button class="inline-flex btn btn-sm btn-primary">Button</button>
-        <button class="ml-4 inline-flex btn btn-sm">Button</button>
+        <button class="inline-flex btn btn-primary text-lg rounded-full">Button</button>
+        <button class="ml-4 inline-flex btn text-lg rounded-full">Button</button>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

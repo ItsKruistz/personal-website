@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .drawer-item {
-  @apply rounded-full text-base font-medium p-2.5;
+  @apply rounded-full text-3xl font-medium p-2.5;
 }
