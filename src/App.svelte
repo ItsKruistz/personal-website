@@ -74,15 +74,15 @@
     <label class="flex cursor-pointer items-center justify-between p-1">
       Accept terms of use
       <div class="relative inline-block">
-        <input type="checkbox" class="peer h-8 w-[52px] cursor-pointer appearance-none rounded-full bg-neutral-200 checked:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" />
-        <span class="pointer-events-none absolute start-1 top-1 block h-6 w-6 rounded-full shadow bg-white transition-all duration-200 peer-checked:start-6"></span>
+        <input type="checkbox" class="peer switch-thumb" />
+        <span class="switch-track"></span>
       </div>
     </label>
     <label class="flex cursor-pointer items-center justify-between p-1">
       Submit to newsletter
       <div class="relative inline-block">
-        <input type="checkbox" class="peer h-8 w-[52px] cursor-pointer appearance-none rounded-full bg-neutral-200 checked:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2" />
-        <span class="pointer-events-none absolute start-1 top-1 block h-6 w-6 rounded-full shadow bg-white transition-all duration-200 peer-checked:start-6"></span>
+        <input type="checkbox" class="peer switch-thumb" />
+        <span class="switch-track"></span>
       </div>
     </label>
     <button class="inline-block cursor-pointer rounded-md bg-gray-700 px-4 py-3.5 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 active:scale-95">Save</button>
@@ -91,7 +91,7 @@
 <div class="inline-flex items-center">
   <label class="relative flex items-center p-3 rounded-full cursor-pointer" htmlFor="check">
     <input type="checkbox"
-      class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[5px] border border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10"
+      class="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border-[1.5px] border-blue-gray-200 transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity checked:border-gray-900 checked:bg-gray-900 checked:before:bg-gray-900 hover:before:opacity-10"
       id="check" />
     <span
       class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
@@ -103,7 +103,7 @@
       </svg>
     </span>
   </label>
-  <label class="mt-px font-light text-gray-700 cursor-pointer select-none" htmlFor="check">
+  <label class="mt-px cursor-pointer select-none" htmlFor="check">
     Remember Me
   </label>
 </div> 

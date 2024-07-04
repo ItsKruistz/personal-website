@@ -7,3 +7,11 @@
 .drawer-item {
   @apply rounded-full text-2xl font-medium p-2.5;
 }
+
+.switch-thumb {
+  @apply h-8 w-[52px] cursor-pointer appearance-none rounded-full bg-neutral-200 checked:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 focus-visible:ring-offset-2;
+}
+
+.switch-track {
+  @apply pointer-events-none absolute start-1 top-1 block h-6 w-6 rounded-full shadow bg-white transition-all duration-200 peer-checked:start-6;
+}
