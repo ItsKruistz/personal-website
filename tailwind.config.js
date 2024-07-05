@@ -16,5 +16,8 @@ export default {
   },
   plugins: [
     require('daisyui'),
-  ],
+    require('@tailwindcss/forms')({
+			// strategy: 'base',
+			strategy: 'class',
+		}),
 };
